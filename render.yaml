@@ -8,3 +8,13 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.8
+      - key: FIREBASE_PROJECT_ID
+        value: fdm-database
+      - key: FIRESTORE_USERS_COLLECTION
+        value: users
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: FIREBASE_SERVICE_ACCOUNT
+        sync: false
+      - key: FLASK_SECRET_KEY
+        sync: false
